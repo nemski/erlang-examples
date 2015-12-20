@@ -1,6 +1,6 @@
 -module(fizz_buzz).
 
--export([fizz_buzz/1, fizz_buzz/4, divisible_fifteen/1]).
+-export([fizz_buzz/1]).
 
 fizz_buzz([H|T]) -> fizz_buzz([H|T], divisible_fifteen(H), divisible_five(H), divisible_three(H));
 
